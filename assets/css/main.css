@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+
+
 
 /*
 	Big Picture by HTML5 UP
@@ -31,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	font-family: 'Cairo', sans-serif;
 }
 
 ol, ul {
@@ -500,12 +505,14 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
-		font-weight: 300;
-		font-size: 18pt;
-		line-height: 1.75em;
-		color: #39454b;
-		letter-spacing: 0.025em;
+		
+  font-family: "Cairo", serif;
+  font-optical-sizing: auto;
+  font-weight: <10>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 1;
+
 	}
 
 		@media screen and (max-width: 1920px) {
@@ -544,7 +551,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 12pt;
-				line-height: 1.5em;
+				line-height: 2em;
 			}
 
 		}
@@ -552,7 +559,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		color: inherit;
-		letter-spacing: -0.0325em;
+		letter-spacing: -0.05em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
